@@ -1,0 +1,96 @@
+body {
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+#padre {
+    /*Posicionamiento vertical y horizontal*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+
+}
+/*PRIMER DIV*/
+#community-container {
+    background: white;
+    padding: 2%;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    padding: 7%;
+}
+
+#community-container h3{
+    color: hsl(179, 62%, 43%)
+}
+
+#community-container h4{
+    color: hsl(71, 73%, 54%);
+}
+
+#community-container p {
+    color: hsl(218, 22%, 67%);
+}
+
+/*SEGUNDO DIV*/
+#subscription-container {
+    background: hsl(179, 62%, 43%);
+    padding: 2%;
+    border-bottom-left-radius: 10px 10px;
+    padding: 5%;
+}
+
+#subscription-container h4, p{
+    color: white;
+}
+span {
+    color: white;
+    font-size: 28px;
+}
+
+#permonth {
+    color: hsl(0, 3%, 83%)
+}
+
+
+/*TERCER DIV*/
+#whyus-container {
+    background: hsl(179, 50%, 60%);
+    padding: 2%;
+    border-bottom-right-radius: 10px 10px;
+    padding: 5%;
+
+}
+
+#whyus-container h5 {
+    color: white;
+}
+
+#whyus-container p {
+    color:hsl(0, 6%, 90%)
+}
+
+.btn-primary {
+    background-color: hsl(71, 73%, 54%);
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    #subscription-container, #whyus-container {
+        border-radius: 0%;
+    }
+
+    #padre {
+        width: 50%;
+        height: 100%;
+    }
+}
+/* footer {
+    display: flex;
+    justify-content: flex-end;
+} */
