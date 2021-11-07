@@ -4,12 +4,21 @@ body {
     font-weight: 700;
 
 }
+#abuelo {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #padre {
     /*Posicionamiento vertical y horizontal*/
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    width: 100%;
+    max-width: 800px;
   
 
 }
@@ -86,8 +95,15 @@ span {
     }
 
     #padre {
-        width: 50%;
-        height: 100%;
+        /* width: 50%;
+        height: 100%; */
+        width: 70%;
+    }
+}
+
+@media (max-width: 468px) {
+    #padre {
+        width: 90%;
     }
 }
 /* footer {
